@@ -1,18 +1,18 @@
 ## Setup and Installation
 
 Clone the repository:
-git clone https://github.com/yourusername/fastapi-item-manager.git
-cd fastapi-item-manager
+- git clone https://github.com/yourusername/fastapi-item-manager.git
+- cd fastapi-item-manager
 
 Create a virtual environment and activate it:
-python -m venv venv
-source venv/bin/activate  # On Windows, use venv\Scripts\activate
+- python -m venv venv
+- source venv/bin/activate  # On Windows, use venv\Scripts\activate
 
 Install the required packages:
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 Run the application:
-uvicorn app.main:app --reload
+- uvicorn app.main:app --reload
 
 
 Open your browser and navigate to `http://localhost:8000`
