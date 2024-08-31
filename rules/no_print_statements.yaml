@@ -1,0 +1,7 @@
+id: no-print-statements
+language: "python"
+message: "Avoid using print statements in production code"
+note: "Use proper logging instead of print statements for better debugging and monitoring"
+severity: "warning"
+rule:
+  pattern: print($ARGS)

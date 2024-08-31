@@ -1,0 +1,9 @@
+id: consistent-return-annotation
+language: "python"
+message: "Ensure all functions have return type annotations"
+note: "Using return type annotations improves code readability and helps catch type-related errors"
+severity: "warning"
+rule:
+  pattern: "def $FUNC_NAME($PARAMS):"
+  inside:
+    kind: "module"

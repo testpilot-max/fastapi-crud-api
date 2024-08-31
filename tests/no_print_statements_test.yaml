@@ -1,0 +1,9 @@
+id: no-print-statements
+valid:
+  - |
+    logger.info("Log message")
+    logging.debug(f"Debug: {value}")
+invalid:
+  - |
+    print("Debug message")
+    print(f"Value: {x}")

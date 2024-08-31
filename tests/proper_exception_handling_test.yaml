@@ -1,0 +1,13 @@
+id: proper-exception-handling
+valid:
+  - |
+    try:
+      do_something()
+    except ValueError as e:
+      handle_error(e)
+invalid:
+  - |
+    try:
+      do_something()
+    except:
+      handle_error()

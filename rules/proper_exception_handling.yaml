@@ -1,0 +1,11 @@
+id: proper-exception-handling
+language: "python"
+message: "Use specific exceptions instead of bare except clauses"
+note: "Catching specific exceptions helps in better error handling and debugging"
+severity: "warning"
+rule:
+  pattern: |
+    try:
+      $BODY
+    except:
+      $HANDLER
